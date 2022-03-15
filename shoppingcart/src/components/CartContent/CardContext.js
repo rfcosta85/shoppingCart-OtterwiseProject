@@ -84,7 +84,7 @@ const Cart = (props) => {
                     title: `Item atualizado`,
                     description: `${name} atualizado com sucesso`,
                     status: 'success',
-                    duration: 2000,
+                    duration: 1500,
                   })
                 }}
                 mt="5px"
@@ -103,7 +103,7 @@ const Cart = (props) => {
                     title: `Item removido`,
                     description: `${name} Item removido com sucesso`,
                     status: 'warning',
-                    duration: 2000,
+                    duration: 1500,
                   })
                 }}
                 colorScheme="red"

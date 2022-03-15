@@ -44,6 +44,7 @@ const Fruits = () => {
             textAlign="center"
             fontSize="24px"
             boxShadow="dark-lg"
+            cursor="pointer"
           >
             Fair Hortifruti
             <Text
@@ -57,7 +58,7 @@ const Fruits = () => {
             </Text>
           </Text>
           <Flex align="center" w="50%">
-            <InputGroup size="lg" backgroundColor="white">
+            <InputGroup size="lg" backgroundColor="white" cursor="pointer">
               <Input color="gray.900" placeholder="Realize a sua busca" />
               <InputRightElement width="4.5rem"></InputRightElement>
               <IconButton
@@ -91,8 +92,8 @@ const Fruits = () => {
         display="flex"
         flexDir="row"
         wrap="wrap"
-        maxWidth="80%"
-        maxHeight="80%"
+        maxWidth="90%"
+        maxHeight="90%"
         backgroundColor="gray.50"
         mt="50px"
         padding="40px"

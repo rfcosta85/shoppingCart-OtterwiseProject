@@ -52,17 +52,20 @@ const Cart = () => {
             textAlign="center"
             fontSize="24px"
             boxShadow="dark-lg"
+            cursor="pointer"
           >
-            Fair Hortifruti
-            <Text
-              fontFamily="cursive"
-              fontSize="12px"
-              textAlign="center"
-              paddingTop="5px"
-              textShadow="dark-lg"
-            >
-              A sua melhor escolha
-            </Text>
+            <Link to="/">
+              Fair Hortifruti
+              <Text
+                fontFamily="cursive"
+                fontSize="12px"
+                textAlign="center"
+                paddingTop="5px"
+                textShadow="dark-lg"
+              >
+                A sua melhor escolha
+              </Text>
+            </Link>
           </Text>
           <Text>Carrinho de Compra</Text>
         </Flex>
@@ -117,10 +120,9 @@ const Cart = () => {
             onClick={() =>
               toast({
                 title: 'Compra finalizada!',
-                description:
-                  'Compra finalizada com sucesso, envie o pix para lukavieira14@gmail.com com o valor da compra',
+                description: 'Compra finalizada com sucesso!',
                 status: 'success',
-                duration: 15000,
+                duration: 1500,
                 isClosable: true,
               })
             }

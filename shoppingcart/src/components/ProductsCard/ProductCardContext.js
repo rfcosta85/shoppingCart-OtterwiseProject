@@ -92,7 +92,7 @@ const FruitCard = (props) => {
                 title: 'Item adicionado',
                 description: 'O item foi adicionado com sucesso no carrinho',
                 status: 'success',
-                duration: 1000,
+                duration: 1500,
               })
             }}
             mt="5px"

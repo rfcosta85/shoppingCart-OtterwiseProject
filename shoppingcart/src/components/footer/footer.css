@@ -30,6 +30,7 @@
   color: white;
   margin-right: 40px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .footer__logo--subtitle {
